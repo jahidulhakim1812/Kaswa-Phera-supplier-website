@@ -1,0 +1,24 @@
+# Allow product photo uploads up to 25MB each, several at once.
+# If your hosting provider disables .htaccess overrides for PHP settings,
+# ask them to set these same values in php.ini instead.
+<IfModule mod_php.c>
+    php_value upload_max_filesize 25M
+    php_value post_max_size 260M
+    php_value max_file_uploads 20
+    php_value memory_limit 256M
+    php_value max_execution_time 120
+</IfModule>
+<IfModule mod_php7.c>
+    php_value upload_max_filesize 25M
+    php_value post_max_size 260M
+    php_value max_file_uploads 20
+    php_value memory_limit 256M
+    php_value max_execution_time 120
+</IfModule>
+<IfModule mod_php8.c>
+    php_value upload_max_filesize 25M
+    php_value post_max_size 260M
+    php_value max_file_uploads 20
+    php_value memory_limit 256M
+    php_value max_execution_time 120
+</IfModule>
