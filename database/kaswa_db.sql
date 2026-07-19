@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 18, 2026 at 05:36 PM
+-- Generation Time: Jul 19, 2026 at 12:39 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -127,10 +127,13 @@ CREATE TABLE `hero_slides` (
 --
 
 INSERT INTO `hero_slides` (`id`, `eyebrow`, `title`, `subtitle`, `image`, `cta_text`, `cta_link`, `sort_order`, `status`, `created_at`) VALUES
-(1, 'Chemical & Lab Equipment Manufacturer', 'Engineering precision equipment for chemical &amp; laboratory production', 'KASWA Tech designs, builds and supports reactors, process lines and analytical instruments for chemical manufacturers, pharmaceutical formulators and QC laboratories across Bangladesh.', 'hero-1-manufacturing.jpg', 'Explore Products', 'products.php', 1, 1, '2026-07-18 15:28:12'),
-(2, 'Reactors &amp; Process Vessels', 'Stainless steel and glass-lined reactors built for consistent batches', 'Jacketed vessels, continuous process skids and agitator systems engineered in-house for temperature-controlled synthesis at any scale.', 'hero-2-reactor-vessel.jpg', 'View Chemical Plants', 'products.php?category=chemical-manufacturing-plants', 2, 1, '2026-07-18 15:28:12'),
-(3, 'Lab &amp; Analytical Instruments', 'Precision instruments trusted by QC and R&amp;D laboratories', 'pH meters, rotary evaporators, muffle furnaces and analytical balances calibrated and supported locally across Bangladesh.', 'hero-3-lab-instruments.jpg', 'View Lab Instruments', 'products.php?category=lab-analytical-instruments', 3, 1, '2026-07-18 15:28:12'),
-(4, 'Local Installation &amp; Support', 'On-site commissioning, training and 24/7 breakdown response', 'Every system we build is backed by our own engineering team, from first commissioning through spare parts and calibration.', 'hero-4-support.jpg', 'Talk to Our Team', 'contact.php', 4, 1, '2026-07-18 15:28:12');
+(1, 'Chemical & Lab Equipment Manufacturer', 'Engineering precision equipment for chemical &amp; laboratory production', 'KASWA Tech designs, builds and supports reactors, process lines and analytical instruments for chemical manufacturers, pharmaceutical formulators and QC laboratories across Bangladesh.', 'slide-1784450202-31d0ea.png', 'Explore Products', 'products.php', 1, 1, '2026-07-18 15:28:12'),
+(2, 'Reactors &amp; Process Vessels', 'Stainless steel and glass-lined reactors built for consistent batches', 'Jacketed vessels, continuous process skids and agitator systems engineered in-house for temperature-controlled synthesis at any scale.', 'slide-1784451053-deb27a.png', 'View Chemical Plants', 'products.php?category=chemical-manufacturing-plants', 2, 1, '2026-07-18 15:28:12'),
+(3, 'Lab &amp; Analytical Instruments', 'Precision instruments trusted by QC and R&amp;D laboratories', 'pH meters, rotary evaporators, muffle furnaces and analytical balances calibrated and supported locally across Bangladesh.', 'slide-1784451937-1a466f.png', 'View Lab Instruments', 'products.php?category=lab-analytical-instruments', 3, 1, '2026-07-18 15:28:12'),
+(4, 'Local Installation &amp; Support', 'On-site commissioning, training and 24/7 breakdown response', 'Every system we build is backed by our own engineering team, from first commissioning through spare parts and calibration.', 'slide-1784456619-0e1bb3.png', 'Talk to Our Team', 'contact.php', 4, 1, '2026-07-18 15:28:12'),
+(5, '', 'thhdh', '', 'slide-1784456632-4f8bee.png', 'Explore Products', 'products.php', 5, 1, '2026-07-19 10:23:52'),
+(6, '', 'fjfj', '', 'slide-1784456741-b36019.png', 'Explore Products', 'products.php', 6, 1, '2026-07-19 10:25:41'),
+(7, '', 'dfadf', '', 'slide-1784457141-b01cad.png', 'Explore Products', 'products.php', 7, 1, '2026-07-19 10:32:21');
 
 -- --------------------------------------------------------
 
@@ -276,8 +279,8 @@ CREATE TABLE `settings` (
 --
 
 INSERT INTO `settings` (`id`, `setting_key`, `setting_value`, `updated_at`) VALUES
-(1, 'company_name', 'KASWA Tech', '2026-07-18 15:28:12'),
-(2, 'tagline', 'Engineering Chemical & Laboratory Solutions', '2026-07-18 15:28:12'),
+(1, 'company_name', 'KASWA TECHNOLOGIES', '2026-07-19 08:09:20'),
+(2, 'tagline', 'SCIENTIFIC SOLUTION MAKER', '2026-07-19 08:09:20'),
 (3, 'corporate_address', 'Delwar Complex [3rd Floor] Room no: 05, 26, Shahid Nazrul Islam Sarak, Hatkhola, Dhaka-1203, Bangladesh', '2026-07-18 15:28:12'),
 (4, 'registered_address', '251/1, Uttar Datta Para (Chanki), Arshad Nagar, Tongi East, Gazipur City Corporation, Bangladesh', '2026-07-18 15:28:12'),
 (5, 'phone_1', '+88 01670974843', '2026-07-18 15:28:12'),
@@ -386,7 +389,7 @@ ALTER TABLE `clients`
 -- AUTO_INCREMENT for table `hero_slides`
 --
 ALTER TABLE `hero_slides`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `inquiries`
@@ -422,7 +425,7 @@ ALTER TABLE `services`
 -- AUTO_INCREMENT for table `settings`
 --
 ALTER TABLE `settings`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- Constraints for dumped tables
